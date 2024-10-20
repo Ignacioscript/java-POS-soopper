@@ -18,6 +18,9 @@ public class Customer extends User{
         this.contactAddress = contactAddress;
     }
 
+    public Customer() {
+    }
+
     public String getContactAddress() {
         return contactAddress;
     }

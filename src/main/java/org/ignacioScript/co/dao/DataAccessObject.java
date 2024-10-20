@@ -1,10 +1,12 @@
 package org.ignacioScript.co.dao;
 
 import org.ignacioScript.co.interfaces.DataTransferObject;
+import org.ignacioScript.co.util.DButil;
 
 import java.util.List;
 
 public abstract class  DataAccessObject <T extends DataTransferObject> {
+
 
 
 
@@ -18,3 +20,8 @@ public abstract class  DataAccessObject <T extends DataTransferObject> {
     //TODO create Entities DAOs
 
 }
+
+
+
+
+
